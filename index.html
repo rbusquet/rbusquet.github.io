@@ -42,11 +42,16 @@
       src="https://kit.fontawesome.com/df2ae3b0cf.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+    html,
+    body, main
+    { height: 80% ;}
+    </style>
 
     <title>Ricardo Busquet</title>
   </head>
-  <body class="text-center text-light bg-dark">
-    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <body class="text-light bg-dark h-100">
+    <div class="w-100 h-100 p-3">
       <header>
         <nav class="nav justify-content-end">
           <a class="nav-link" href="https://linkedin.com/in/rbusquet"
@@ -61,14 +66,25 @@
         </nav>
       </header>
       <main role="main">
-        <h1>Ricardo Busquet</h1>
-        <p class="lead">
-          Full Stack Software Engineer
-        </p>
-        <i class="fab fa-python"></i>
-        <i class="fab fa-react"></i>
-        <i class="fas fa-database"></i>
+        <div class="text-center h-100 d-flex flex-column flex-wrap align-content-center justify-content-center">
+          <h1>Ricardo Busquet</h1>
+          <p class="lead">
+            Full Stack Software Engineer
+          </p>
+          <div>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-react"></i>
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="p-2">
+            <a class="github-button" href="https://github.com/rbusquet" data-color-scheme="no-preference: light; light: light; dark: light;" aria-label="Follow @rbusquet on GitHub"> @rbusquet</a>
+          </div>
+          <code class="p-2">
+            <a class="code" href="https://github.com/rbusquet/advent-of-code">Advent of code</a>
+          </code>
+        </div>
       </main>
     </div>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>
